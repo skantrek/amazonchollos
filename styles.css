@@ -3,6 +3,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #121212;
+    color: #ffffff;
 }
 .container {
     padding: 20px;
@@ -13,7 +15,7 @@ body {
 }
 .subtitle {
     font-size: 1.2em;
-    color: gray;
+    color: #bbbbbb;
 }
 .description {
     margin: 20px 0;
@@ -22,6 +24,20 @@ body {
 .search-bar {
     margin-top: 20px;
 }
+.search-bar input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+.search-bar button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0073e6;
+    color: #ffffff;
+    cursor: pointer;
+}
 .product-list {
     margin-top: 40px;
     display: flex;
@@ -29,12 +45,13 @@ body {
     justify-content: center;
 }
 .product {
-    border: 1px solid #ddd;
+    border: 1px solid #333;
     border-radius: 8px;
     padding: 10px;
     margin: 10px;
     width: 200px;
     text-align: left;
+    background-color: #1e1e1e;
 }
 .product img {
     width: 100%;
@@ -47,3 +64,4 @@ body {
 .product a:hover {
     text-decoration: underline;
 }
+
