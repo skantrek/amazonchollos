@@ -8,12 +8,12 @@ function searchProducts() {
         {
             title: 'Producto 1',
             img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://www.amazon.com/producto1'
+            link: 'https://amzn.to/4bUKeP4'
         },
         {
             title: 'Producto 2',
             img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://www.amazon.com/producto2'
+            link: 'https://amzn.to/4bUKeP4'
         }
     ];
 
