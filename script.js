@@ -3,7 +3,7 @@ function searchProducts() {
     const productList = document.getElementById('productList');
     productList.innerHTML = ''; // Limpiar resultados anteriores
 
-    // Ejemplo de productos. En una aplicación real, obtendrás estos datos de una API
+    // Ejemplo de productos. En una aplicación real, obtendrás estos datos de una API aa
     const products = [
         {
             title: 'Producto 1',
