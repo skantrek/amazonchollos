@@ -1,5 +1,24 @@
-<div id="search-container">
-    <input type="text" id="search-input" placeholder="Buscar productos...">
-    <button id="search-button" onclick="searchProducts()">Buscar</button>
-    <div id="search-results"></div>
-</div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Chollos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Amazon Chollos</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Buscar productos...">
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+    <main>
+        <section id="products">
+            <!-- Productos se cargarán aquí -->
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
