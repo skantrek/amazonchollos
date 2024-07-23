@@ -2,13 +2,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const products = [
         {
             title: 'Producto 1',
-            img: 'https://via.placeholder.com/200',
-            link: 'https://www.amazon.com/producto1'
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
         },
         {
             title: 'Producto 2',
-            img: 'https://via.placeholder.com/200',
-            link: 'https://www.amazon.com/producto2'
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
         },
         // Agrega más productos según sea necesario
     ];
