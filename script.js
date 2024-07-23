@@ -1,28 +1,29 @@
-<script>
+document.getElementById('search-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const query = document.getElementById('search-input').value;
+    searchProducts(query);
+});
+
+function searchProducts(query) {
+    // Aquí iría la lógica para buscar productos de Amazon usando su API
+    console.log('Buscando productos para:', query);
+    // Simulación de resultados de búsqueda
     const products = [
-        { name: "ZAPATO CON RUEDAS", description: "link: https://amzn.to/4eXxEBn", price: "$10" },
-        { name: "Producto 2", description: "Descripción del Producto 2", price: "$20" },
-        { name: "Producto 3", description: "Descripción del Producto 3", price: "$30" },
-        // Añade más productos aquí
+        { name: 'Producto 1', price: '$10' },
+        { name: 'Producto 2', price: '$20' },
+        { name: 'Producto 3', price: '$30' }
     ];
+    displayProducts(products);
+}
 
-    function searchProducts() {
-        const query = document.getElementById("search-input").value.toLowerCase();
-        const resultsContainer = document.getElementById("search-results");
-        resultsContainer.innerHTML = "";
-
-        const results = products.filter(product => product.name.toLowerCase().includes(query));
-
-        if (results.length > 0) {
-            results.forEach(product => {
-                const resultItem = document.createElement("div");
-                resultItem.className = "result-item";
-                resultItem.innerHTML = `<strong>${product.name}</strong><br>${product.description}<br>${product.price}`;
-                resultsContainer.appendChild(resultItem);
-            });
-        } else {
-            resultsContainer.innerHTML = "<p>No se encontraron productos.</p>";
-        }
-    }
-</script>
+function displayProducts(products) {
+    const productsContainer = document.getElementById('products');
+    productsContainer.innerHTML = '';
+    products.forEach(product => {
+        const productElement = document.createElement('div');
+        productElement.className = 'product';
+        productElement.innerHTML = `<h2>${product.name}</h2><p>${product.price}</p>`;
+        productsContainer.appendChild(productElement);
+    });
+}
 
