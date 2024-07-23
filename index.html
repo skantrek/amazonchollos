@@ -1,51 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Chollos</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Amazon Chollos</h1>
-        <p>Encuentra los mejores chollos de Amazon</p>
-        <input type="text" id="searchBar" placeholder="Buscar productos...">
-    </header>
-    <main>
-        <section class="product-list" id="productList">
-            <article class="product" data-name="Producto 1">
-                <img src="ruta-del-producto.jpg" alt="Descripción del producto">
-                <h2>Producto 1</h2>
-                <p>Descripción breve del producto.</p>
-                <a href="enlace-de-afiliado" target="_blank">Comprar ahora</a>
-            </article>
-            <article class="product" data-name="Producto 2">
-                <img src="ruta-del-producto.jpg" alt="Descripción del producto">
-                <h2>Producto 2</h2>
-                <p>Descripción breve del producto.</p>
-                <a href="enlace-de-afiliado" target="_blank">Comprar ahora</a>
-            </article>
-            <!-- Añade más productos aquí -->
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Amazon Chollos. Todos los derechos reservados.</p>
-    </footer>
-    <script>
-        document.getElementById('searchBar').addEventListener('keyup', function() {
-            let query = this.value.toLowerCase();
-            let products = document.querySelectorAll('.product');
-
-            products.forEach(function(product) {
-                let productName = product.getAttribute('data-name').toLowerCase();
-                if (productName.includes(query)) {
-                    product.style.display = 'block';
-                } else {
-                    product.style.display = 'none';
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+<div id="search-container">
+    <input type="text" id="search-input" placeholder="Buscar productos...">
+    <button id="search-button" onclick="searchProducts()">Buscar</button>
+    <div id="search-results"></div>
+</div>
