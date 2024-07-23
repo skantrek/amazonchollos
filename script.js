@@ -1,29 +1,29 @@
-document.getElementById('search-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    const query = document.getElementById('search-input').value;
-    searchProducts(query);
-});
+function searchProducts() {
+    const query = document.getElementById('searchInput').value;
+    const productList = document.getElementById('productList');
+    productList.innerHTML = ''; // Limpiar resultados anteriores
 
-function searchProducts(query) {
-    // Aquí iría la lógica para buscar productos de Amazon usando su API
-    console.log('Buscando productos para:', query);
-    // Simulación de resultados de búsqueda
+    // Ejemplo de productos. En una aplicación real, obtendrás estos datos de una API
     const products = [
-        { name: 'Producto 1', price: '$10' },
-        { name: 'Producto 2', price: '$20' },
-        { name: 'Producto 3', price: '$30' }
+        {
+            title: 'Producto 1',
+            img: 'ruta/a/la/imagen1.jpg',
+            link: 'https://www.amazon.com/producto1'
+        },
+        {
+            title: 'Producto 2',
+            img: 'ruta/a/la/imagen2.jpg',
+            link: 'https://www.amazon.com/producto2'
+        }
     ];
-    displayProducts(products);
-}
 
-function displayProducts(products) {
-    const productsContainer = document.getElementById('products');
-    productsContainer.innerHTML = '';
     products.forEach(product => {
-        const productElement = document.createElement('div');
-        productElement.className = 'product';
-        productElement.innerHTML = `<h2>${product.name}</h2><p>${product.price}</p>`;
-        productsContainer.appendChild(productElement);
+        const productDiv = document.createElement('div');
+        productDiv.classList.add('product');
+        productDiv.innerHTML = `
+            <img src="${product.img}" alt="${product.title}">
+            <a href="${product.link}" target="_blank">${product.title}</a>
+        `;
+        productList.appendChild(productDiv);
     });
 }
-
