@@ -1,13 +1,28 @@
-document.getElementById('searchBar').addEventListener('keyup', function() {
-    let query = this.value.toLowerCase();
-    let products = document.querySelectorAll('.product');
+<script>
+    const products = [
+        { name: "ZAPATO CON RUEDAS", description: "link: https://amzn.to/4eXxEBn", price: "$10" },
+        { name: "Producto 2", description: "Descripción del Producto 2", price: "$20" },
+        { name: "Producto 3", description: "Descripción del Producto 3", price: "$30" },
+        // Añade más productos aquí
+    ];
 
-    products.forEach(function(product) {
-        let productName = product.getAttribute('data-name').toLowerCase();
-        if (productName.includes(query)) {
-            product.style.display = 'block';
+    function searchProducts() {
+        const query = document.getElementById("search-input").value.toLowerCase();
+        const resultsContainer = document.getElementById("search-results");
+        resultsContainer.innerHTML = "";
+
+        const results = products.filter(product => product.name.toLowerCase().includes(query));
+
+        if (results.length > 0) {
+            results.forEach(product => {
+                const resultItem = document.createElement("div");
+                resultItem.className = "result-item";
+                resultItem.innerHTML = `<strong>${product.name}</strong><br>${product.description}<br>${product.price}`;
+                resultsContainer.appendChild(resultItem);
+            });
         } else {
-            product.style.display = 'none';
+            resultsContainer.innerHTML = "<p>No se encontraron productos.</p>";
         }
-    });
-});
+    }
+</script>
+
