@@ -12,6 +12,10 @@ body {
 .logo {
     font-size: 2em;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
 }
 .subtitle {
     font-size: 1.2em;
