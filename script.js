@@ -7,12 +7,12 @@ function searchProducts() {
     const products = [
         {
             title: 'Producto 1',
-            img: 'ruta/a/la/imagen1.jpg',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
             link: 'https://www.amazon.com/producto1'
         },
         {
             title: 'Producto 2',
-            img: 'ruta/a/la/imagen2.jpg',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
             link: 'https://www.amazon.com/producto2'
         }
     ];
