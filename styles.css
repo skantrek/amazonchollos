@@ -1,41 +1,40 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
-}
-.product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1em;
-}
-.product {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    margin: 1em;
-    padding: 1em;
-    width: 200px;
-    text-align: center;
-}
-.product img {
-    max-width: 100%;
-}
-.product h2 {
-    font-size: 1.2em;
-}
-.product a {
-    display: inline-block;
-    margin-top: 0.5em;
-    padding: 0.5em 1em;
-    background-color: #ff9900;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
+<style>
+    #search-container {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    #search-input {
+        width: 80%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    #search-button {
+        width: 18%;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #search-results {
+        margin-top: 20px;
+    }
+
+    .result-item {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .result-item:last-child {
+        border-bottom: none;
+    }
+</style>
