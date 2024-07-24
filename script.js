@@ -12,12 +12,12 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             title: 'Producto 3',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            img: 'https://m.media-amazon.com/images/I/71Klre6fo2L._AC_SY695_.jpg',
             link: 'https://amzn.to/4bUKeP4'
         },
         {
             title: 'Producto 4',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            img: 'https://images-na.ssl-images-amazon.com/images/I/71Klre6fo2L._AC_UL127_SR127,127_.jpg',
             link: 'https://amzn.to/4bUKeP4'
         },
         {
