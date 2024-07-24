@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const products = [
         {
             title: 'Producto 1',
-            img: 'https://www.amazon.com/-/es/Dunham-Tenis-bajos-Country-hombre/dp/B0BV8R5FFF?pd_rd_w=XKlIY&content-id=amzn1.sym.6cdfd37d-5690-4eb0-a645-314724cbfa03&pf_rd_p=6cdfd37d-5690-4eb0-a645-314724cbfa03&pf_rd_r=SCY3YEK4759XBK9TK686&pd_rd_wg=q7VsA&pd_rd_r=7b409e6d-aae7-409c-9d79-361cbdd9b6d8&pd_rd_i=B0BV8KCRW2&th=1&psc=1&linkCode=ll1&tag=trek077-20&linkId=ebd02684fae656265626d3534da00c1a&language=es_US&ref_=as_li_ss_tl',
+            img: 'https://amzn.to/3A3YDuJ',
             link: 'https://www.amazon.com/-/es/Dunham-Tenis-bajos-Country-hombre/dp/B0BV8R5FFF?pd_rd_w=XKlIY&content-id=amzn1.sym.6cdfd37d-5690-4eb0-a645-314724cbfa03&pf_rd_p=6cdfd37d-5690-4eb0-a645-314724cbfa03&pf_rd_r=SCY3YEK4759XBK9TK686&pd_rd_wg=q7VsA&pd_rd_r=7b409e6d-aae7-409c-9d79-361cbdd9b6d8&pd_rd_i=B0BV8KCRW2&th=1&psc=1&linkCode=ll1&tag=trek077-20&linkId=ebd02684fae656265626d3534da00c1a&language=es_US&ref_=as_li_ss_tl'
         },
         {
