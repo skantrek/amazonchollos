@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const products = [
         {
             title: 'Producto 1',
-            img: 'https://m.media-amazon.com/images/I/61F3U4C4jmL._AC_SY695_.jpg',
-            link: 'https://amzn.to/3A3YDuJ'
+            img: 'https://m.media-amazon.com/images/I/81x-v9WvdiL._AC_SX695_.jpg',
+            link: 'https://amzn.to/4ffbWJ6'
         },
         {
             title: 'Producto 2',
