@@ -84,12 +84,14 @@ body {
 }
 
 .product {
-    border: 1px solid #ffffff; /* Borde blanco */
+    border: 1px solid #ffffff; /* Borde blanco uniforme */
     border-radius: 8px;
     padding: 10px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
 }
 
 .product:hover {
@@ -138,13 +140,13 @@ body {
 
 @media (max-width: 900px) {
     .product-list {
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas en dispositivos móviles */
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en dispositivos móviles */
     }
 }
 
 @media (max-width: 600px) {
     .product-list {
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas en pantallas móviles */
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas móviles */
     }
 }
 
@@ -154,6 +156,7 @@ body {
         height: auto;
     }
 }
+
 
 
 
