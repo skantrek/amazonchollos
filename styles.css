@@ -42,15 +42,13 @@ body {
     color: #bbbbbb;
 }
 
+.affiliate-text {
+    color: #888888; /* Color gris más claro */
+}
+
 .container {
     padding: 20px;
     text-align: center;
-}
-
-.description {
-    margin: 20px 0;
-    font-size: 1.2em;
-    color: #cccccc;
 }
 
 .search-bar {
