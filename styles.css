@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333; /* Fondo negro */
+    background-color: #000000; /* Fondo negro */
     color: #ffffff;
 }
 
@@ -20,7 +20,7 @@ body {
     border-radius: 10px;
     text-align: center;
     width: 100%;
-    max-width: 1000px; /* Ajusta el tamaño máximo del cuadro */
+    max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
 }
 
 .logo img {
@@ -153,4 +153,5 @@ body {
         height: auto;
     }
 }
+
 
