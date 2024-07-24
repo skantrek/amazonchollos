@@ -3,8 +3,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa; /* Fondo similar a Justice Buys */
-    color: #212529;
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff;
 }
 
 .header {
@@ -15,13 +15,12 @@ body {
 }
 
 .hero {
-    background-color: #ffffff; /* Fondo blanco para el cuadro */
+    background-color: #333333; /* Fondo gris para el cuadro */
     padding: 40px;
     border-radius: 10px;
     text-align: center;
     width: 100%;
     max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra ligera */
 }
 
 .logo img {
@@ -34,13 +33,13 @@ body {
 .hero h1 {
     font-size: 3em;
     margin: 0;
-    color: #343a40;
+    color: #ffffff;
 }
 
 .hero p {
     font-size: 1.2em;
     margin: 10px 0 0;
-    color: #6c757d;
+    color: #bbbbbb;
 }
 
 .affiliate-text {
@@ -50,12 +49,6 @@ body {
 .container {
     padding: 20px;
     text-align: center;
-}
-
-.description {
-    margin: 20px 0;
-    font-size: 1.2em;
-    color: #6c757d;
 }
 
 .search-bar {
