@@ -10,6 +10,72 @@ document.addEventListener("DOMContentLoaded", function() {
             img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
             link: 'https://amzn.to/4bUKeP4'
         },
+        {
+            title: 'Producto 3',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 4',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 5',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 6',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 7',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 8',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 9',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 10',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 11',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 12',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 13',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        
         // Agrega más productos según sea necesario
     ];
 
