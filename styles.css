@@ -134,7 +134,7 @@ body {
     font-size: 1.5em;
 }
 
-.social-media a:hover {
+social-media a:hover {
     color: #d1d5db;
 }
 
@@ -147,13 +147,13 @@ body {
 
 @media (max-width: 900px) {
     .product-list {
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas en dispositivos móviles */
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas en dispositivos móviles */
     }
 }
 
 @media (max-width: 600px) {
     .product-list {
-        grid-template-columns: repeat(1, 1fr); /* 1 columna en dispositivos móviles */
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas en dispositivos móviles más pequeñas */
     }
 }
 
