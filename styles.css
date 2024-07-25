@@ -109,6 +109,7 @@ body {
     border-radius: 20px; /* Redondear bordes */
     background-color: #ffffff; /* Fondo blanco */
     box-shadow: none; /* Eliminar sombra */
+    border: none; /* Eliminar borde */
 }
 
 .product a {
@@ -163,5 +164,4 @@ body {
         height: 120px; /* Reducir altura de la imagen */
     }
 }
-
 
