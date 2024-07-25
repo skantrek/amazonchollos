@@ -113,7 +113,7 @@ body {
 }
 
 .product a {
-    color: #232f3e; /* Cambiar color del texto a azul oscuro */
+    color: #0a0a23; /* Cambiar color del texto a negro azulado */
     text-decoration: none;
     display: block;
     margin-top: 10px;
@@ -134,7 +134,7 @@ body {
     font-size: 1.5em;
 }
 
-social-media a:hover {
+.social-media a:hover {
     color: #d1d5db;
 }
 
@@ -149,16 +149,26 @@ social-media a:hover {
     .product-list {
         grid-template-columns: repeat(3, 1fr); /* 3 columnas en dispositivos móviles */
     }
+
+    .product {
+        padding: 10px; /* Ajustar padding en dispositivos móviles */
+    }
+
+    .product img {
+        height: 150px; /* Ajustar altura de la imagen */
+    }
 }
 
 @media (max-width: 600px) {
     .product-list {
         grid-template-columns: repeat(3, 1fr); /* 3 columnas en dispositivos móviles más pequeñas */
     }
+
+    .product {
+        padding: 5px; /* Reducir padding en dispositivos móviles más pequeños */
+    }
+
+    .product img {
+        height: 120px; /* Reducir altura de la imagen */
+    }
 }
-
-
-
-
-
-
