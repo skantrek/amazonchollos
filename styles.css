@@ -3,8 +3,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Fondo negro */
-    color: #ffffff;
+    background-color: #0a0a23; /* Fondo negro azulado más oscuro */
+    color: #333;
 }
 
 .header {
@@ -15,7 +15,7 @@ body {
 }
 
 .hero {
-    background-color: #333333; /* Fondo gris para el cuadro */
+    background-color: #232f3e; /* Fondo azul oscuro */
     padding: 40px;
     border-radius: 10px;
     text-align: center;
@@ -26,24 +26,24 @@ body {
 .logo img {
     max-width: 150px;
     border-radius: 50%; /* Hacer el logo circular */
-    border: 5px solid #ffffff; /* Borde blanco */
+    border: 5px solid #f3f4f6; /* Borde blanco */
     margin-bottom: 20px;
 }
 
 .hero h1 {
     font-size: 3em;
     margin: 0;
-    color: #ffffff;
+    color: #ff9900; /* Color amarillo */
 }
 
 .hero p {
     font-size: 1.2em;
     margin: 10px 0 0;
-    color: #bbbbbb;
+    color: #ffffff;
 }
 
 .affiliate-text {
-    color: #888888; /* Color gris más claro */
+    color: #d1d5db; /* Color gris claro */
 }
 
 .container {
@@ -66,7 +66,7 @@ body {
 .search-bar input {
     padding: 10px;
     border-radius: 5px 0 0 5px;
-    border: 1px solid #0073e6;
+    border: 1px solid #ff9900;
     width: 250px;
     font-size: 1em;
 }
@@ -74,8 +74,8 @@ body {
 .search-bar button {
     padding: 10px;
     border-radius: 0 5px 5px 0;
-    border: 1px solid #0073e6;
-    background-color: #0073e6;
+    border: 1px solid #ff9900;
+    background-color: #ff9900;
     color: #ffffff;
     cursor: pointer;
     font-size: 1em;
@@ -85,17 +85,18 @@ body {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columnas en computadoras */
-    gap: 20px; /* Espacio entre productos */
-    padding: 0 20px; /* Espacio a los lados */
+    gap: 10px; /* Espacio reducido entre productos */
+    padding: 0 10px; /* Ajustar el padding para los productos */
 }
 
 .product {
-    border: 5px solid #ffffff; /* Borde blanco más grande */
+    border: 5px solid #0a0a23; /* Cambiar el color del borde al color del fondo */
     border-radius: 8px;
-    padding: 10px;
-    background-color: #f4f4f4; /* Color de fondo gris claro */
+    padding: 10px 20px; /* Aumentar el padding solo a los lados */
+    background-color: #ffffff; /* Color de fondo blanco */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: transform 0.2s, box-shadow 0.2s;
+    margin: 0; /* Eliminar margen */
 }
 
 .product:hover {
@@ -108,11 +109,11 @@ body {
     height: 200px; /* Altura fija */
     object-fit: contain; /* Ajusta la imagen sin recortar */
     border-radius: 8px;
-    background-color: #ffffff; /* Fondo blanco para las imágenes */
+    background-color: #f3f4f6; /* Fondo gris claro */
 }
 
 .product a {
-    color: #333333; /* Cambiar color del texto a gris oscuro */
+    color: #232f3e; /* Cambiar color del texto a azul oscuro */
     text-decoration: none;
     display: block;
     margin-top: 10px;
@@ -129,12 +130,12 @@ body {
 
 .social-media a {
     margin: 0 10px;
-    color: #ffffff;
+    color: #ff9900;
     font-size: 1.5em;
 }
 
 .social-media a:hover {
-    color: #bbbbbb;
+    color: #d1d5db;
 }
 
 /* Media Queries */
@@ -146,13 +147,13 @@ body {
 
 @media (max-width: 900px) {
     .product-list {
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas en dispositivos móviles */
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en dispositivos móviles */
     }
 }
 
 @media (max-width: 600px) {
     .product-list {
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas en dispositivos móviles */
+        grid-template-columns: repeat(1, 1fr); /* 1 columna en dispositivos móviles */
     }
 }
 
