@@ -51,6 +51,12 @@ body {
     text-align: center;
 }
 
+.intro-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ffffff; /* Color blanco */
+}
+
 .search-bar {
     margin-top: 20px;
     display: flex;
@@ -87,7 +93,7 @@ body {
     border: 5px solid #ffffff; /* Borde blanco más grande */
     border-radius: 8px;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #f4f4f4; /* Color de fondo gris claro */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -106,7 +112,7 @@ body {
 }
 
 .product a {
-    color: #0073e6;
+    color: #333333; /* Cambiar color del texto a gris oscuro */
     text-decoration: none;
     display: block;
     margin-top: 10px;
@@ -123,12 +129,12 @@ body {
 
 .social-media a {
     margin: 0 10px;
-    color: #0073e6;
-    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;
 }
 
 .social-media a:hover {
-    text-decoration: underline;
+    color: #bbbbbb;
 }
 
 /* Media Queries */
