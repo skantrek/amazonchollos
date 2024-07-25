@@ -85,14 +85,14 @@ body {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columnas en computadoras */
-    gap: 10px; /* Espacio reducido entre productos */
-    padding: 0 10px; /* Ajustar el padding para los productos */
+    gap: 5px; /* Espacio reducido entre productos */
+    padding: 0 5px; /* Ajustar el padding para los productos */
 }
 
 .product {
     border: 5px solid #0a0a23; /* Cambiar el color del borde al color del fondo */
-    border-radius: 8px;
-    padding: 10px 20px; /* Aumentar el padding solo a los lados */
+    border-radius: 20px; /* Redondear bordes */
+    padding: 10px 15px; /* Ajustar padding */
     background-color: #ffffff; /* Color de fondo blanco */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: transform 0.2s, box-shadow 0.2s;
@@ -108,7 +108,7 @@ body {
     width: 100%;
     height: 200px; /* Altura fija */
     object-fit: contain; /* Ajusta la imagen sin recortar */
-    border-radius: 8px;
+    border-radius: 20px; /* Redondear bordes */
     background-color: #f3f4f6; /* Fondo gris claro */
 }
 
@@ -161,7 +161,7 @@ body {
 
 @media (max-width: 600px) {
     .product-list {
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas en dispositivos móviles más pequeñas */
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en dispositivos móviles más pequeñas */
     }
 
     .product {
@@ -172,3 +172,4 @@ body {
         height: 120px; /* Reducir altura de la imagen */
     }
 }
+
