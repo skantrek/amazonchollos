@@ -92,16 +92,14 @@ body {
 .product {
     border: 5px solid #0a0a23; /* Cambiar el color del borde al color del fondo */
     border-radius: 20px; /* Redondear bordes */
-    padding: 10px 15px; /* Ajustar padding */
     background-color: #ffffff; /* Color de fondo blanco */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s;
     margin: 0; /* Eliminar margen */
 }
 
 .product:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    box-shadow: none; /* Eliminar sombra al hacer hover */
 }
 
 .product img {
@@ -109,7 +107,8 @@ body {
     height: 200px; /* Altura fija */
     object-fit: contain; /* Ajusta la imagen sin recortar */
     border-radius: 20px; /* Redondear bordes */
-    background-color: #f3f4f6; /* Fondo gris claro */
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: none; /* Eliminar sombra */
 }
 
 .product a {
@@ -150,10 +149,6 @@ body {
         grid-template-columns: repeat(3, 1fr); /* 3 columnas en dispositivos móviles */
     }
 
-    .product {
-        padding: 10px; /* Ajustar padding en dispositivos móviles */
-    }
-
     .product img {
         height: 150px; /* Ajustar altura de la imagen */
     }
@@ -162,10 +157,6 @@ body {
 @media (max-width: 600px) {
     .product-list {
         grid-template-columns: repeat(2, 1fr); /* 2 columnas en dispositivos móviles más pequeñas */
-    }
-
-    .product {
-        padding: 5px; /* Reducir padding en dispositivos móviles más pequeños */
     }
 
     .product img {
