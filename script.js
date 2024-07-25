@@ -87,7 +87,9 @@ document.addEventListener("DOMContentLoaded", function() {
             const productDiv = document.createElement('div');
             productDiv.classList.add('product');
             productDiv.innerHTML = `
-                <img src="${product.img}" alt="${product.title}">
+                <a href="${product.link}" target="_blank">
+                    <img src="${product.img}" alt="${product.title}">
+                </a>
                 <a href="${product.link}" target="_blank">${product.title}</a>
             `;
             productList.appendChild(productDiv);
@@ -106,3 +108,4 @@ document.addEventListener("DOMContentLoaded", function() {
     // Agregar el evento input al campo de búsqueda
     document.getElementById('searchInput').addEventListener('input', searchProducts);
 });
+
